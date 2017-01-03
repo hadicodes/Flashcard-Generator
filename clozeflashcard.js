@@ -1,3 +1,4 @@
+//Cloze Flashcard Constructor
 module.exports.ClozeFlashcard = function(text, cloze) {
     this.text = text;
     this.cloze = cloze;

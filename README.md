@@ -16,15 +16,27 @@ The application creates flashcards of 2 types; **1) Basic Flashcards** which wil
 ## Getting Started
 
 This Flashcard-Generator uses the node CLI in terminal and does not require any npm package installation. Simply navigate to the main top-tier folder called Flashcard-Generator  and then run node index.js in the cli.
----
 
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+### Examples of constructors and Methods
+Constructor Examples for basic & cloze flashcards
+```
+var yourbasicFlashcardName = new basicflashcardexp.BasicFlashcard(front, back);
+var yourclozeFlashcardName = new clozeflashcardexp.ClozeFlashcard(text, cloze);
+```
+Examples of Methods to show the front and back of basic flashcards
+```
+yourbasicFlashcardName.displayFront();
+yourbasicFlashcardName.displayBack();
+```
+Similarly, here are examples of methods for showing full text and partial text for cloze flashcards
+```
+yourclozeFlashcardName.showFulltext();
+yourclozeFlashcardName.showPartialTextOnly();
+```
 
 ## Built With
 
+* Node.js
 * Sublime Text
 
 

@@ -1,3 +1,4 @@
+//Basic Flashcard Constructor
 module.exports.BasicFlashcard = function(front, back) {
     this.front = front;
     this.back = back;
